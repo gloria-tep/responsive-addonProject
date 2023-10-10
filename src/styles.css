@@ -1,7 +1,51 @@
-h1 {
-  font-family: "poppins";
-  font-size: 90px;
+body {
+  font-family: "poppins", sans-serif;
 }
-footer {
-  font-size: 30px;
+header {
+  text-align: center;
+}
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("images/background.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 230px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header h3 {
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header h1 {
+  font-size: 80px;
+  line-height: 1;
+  margin: 0;
+}
+header h2 {
+  font-size: 40px;
+}
+
+header a {
+  background: white;
+  color: #272044;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 100px 0;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 30px;
+    margin: 20px 20px;
+  }
 }
