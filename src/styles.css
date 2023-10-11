@@ -39,7 +39,38 @@ header a {
   display: inline-block;
   margin: 10px 0;
 }
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
 
+ul {
+  list-style-type: none;
+  font-size: 16px;
+  padding: 0;
+}
+.hero {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.hero a {
+  color: white;
+}
+.hero p {
+  font-size: 16px;
+  margin-right: 20px;
+}
+.hero h3 {
+  font-size: 20px;
+  line-height: 1;
+}
 @media (max-width: 900px) {
   .container {
     padding: 100px 0;
