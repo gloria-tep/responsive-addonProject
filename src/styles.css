@@ -40,7 +40,7 @@ header a {
   margin: 10px 0;
 }
 footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     url("landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,8 +57,8 @@ ul {
 }
 .hero {
   display: grid;
-  text-align: center;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr;
+  margin-left: 80px;
 }
 .hero a {
   color: white;
