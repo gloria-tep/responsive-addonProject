@@ -118,4 +118,10 @@ ul {
     font-size: 30px;
     margin: 20px 20px;
   }
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
 }
