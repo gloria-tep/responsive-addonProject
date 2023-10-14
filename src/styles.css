@@ -1,3 +1,8 @@
+:root {
+  --primary-font-color: white;
+  --secondary-font-color: #272044;
+}
+
 body {
   font-family: "poppins", sans-serif;
 }
@@ -30,21 +35,52 @@ header h2 {
   font-size: 40px;
   margin: 10px 0;
 }
-
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 40px;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+.main-grid img {
+  max-width: 100%;
+}
+.main-grid h3 {
+  color: var(--secondary-font-color);
+  opacity: 30%;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.main-grid h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  color: var(--secondary-font-color);
+}
+.main-grid p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-font-color);
+  text-align: justify;
+}
 header a {
-  background: white;
-  color: #272044;
+  background: var(--primary-font-color);
+  color: var(--secondary-font-color);
   padding: 16px 32px;
   text-decoration: none;
   display: inline-block;
   margin: 10px 0;
 }
+
 footer {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
     url("landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: var(--primary-font-color);
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
@@ -62,7 +98,7 @@ ul {
   margin-left: 20px;
 }
 .hero a {
-  color: white;
+  color: var(--primary-font-color);
 }
 .hero p {
   font-size: 16px;
