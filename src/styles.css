@@ -172,4 +172,7 @@ ul {
   .hero {
     grid-template-columns: 1fr;
   }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }
