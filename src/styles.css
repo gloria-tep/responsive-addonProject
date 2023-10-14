@@ -40,6 +40,16 @@ section {
   margin: 0 auto;
   padding: 40px 40px;
 }
+.secondary-section {
+  padding: 0;
+  background: #f8f8f8;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -65,6 +75,10 @@ section {
   line-height: 1.5;
   color: var(--secondary-font-color);
   text-align: justify;
+}
+.class-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 header a {
   background: var(--primary-font-color);
