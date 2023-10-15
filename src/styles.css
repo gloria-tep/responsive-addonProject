@@ -56,6 +56,10 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 30px 0 80px 0;
 }
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .cards {
   background: var(--primary-font-color);
   margin: 40px 40px;
